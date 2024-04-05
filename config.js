@@ -9,8 +9,8 @@ const addLeadId = true;
 const qualifyNumber = "8555792872";
 const overflowNumber = "8556714382";
 
-const CustomText="Claim Your $5,100 In Government Aid..."
-const CustomTextCall="You're Pre-Qualified for Subsidy!"
+const CustomText = "Claim Your $5,100 In Government Aid...";
+const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
