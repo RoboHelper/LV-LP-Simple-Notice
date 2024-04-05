@@ -1,13 +1,13 @@
-const domainName = "helpforallusa.com";
+const domainName = "ushelpcentre.com";
 
-const G2DisplayName = "Peak Plans LLC. - G2 Certification";
+const G2DisplayName = "Portland Benefits Group LLC";
 const G2Link =
-  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=2314";
+  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=1241";
 
 const addLeadId = true;
 
-const qualifyNumber = "8555792872";
-const overflowNumber = "8556714382";
+const qualifyNumber = "+18779067156";
+const overflowNumber = "+18776513045";
 
 const CustomText =
   "All Americans Will Receive $6,400 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
@@ -16,8 +16,8 @@ const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "";
-const googleConversionTagEventSentTo = "";
+const googleAccountConversionTagID = "AW-16519917454";
+const googleConversionTagEventSentTo = "AW-16519917454/FpAxCPnviqMZEI7fp8U9";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
