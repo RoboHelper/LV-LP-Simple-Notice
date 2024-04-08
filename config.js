@@ -1,8 +1,8 @@
 const domainName = "helpedeveryone.com";
 
-const G2DisplayName = "";
+const G2DisplayName = "Quick Health Inc. - Healthcare Provider";
 const G2Link =
-  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=2314";
+  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=108";
 
 const addLeadId = true;
 
