@@ -1,13 +1,13 @@
-const domainName = "helpedeveryone.com";
+const domainName = "allpeopleassistance.com";
 
-const G2DisplayName = "Quick Health Inc. - Healthcare Provider";
+const G2DisplayName = "Quick Health Inc. - G2 Certification";
 const G2Link =
   "https://www.g2llc.com/approved-health-insurance-provider/?pdb=108";
 
 const addLeadId = true;
 
-const qualifyNumber = "8776595463";
-const overflowNumber = "8776512362";
+const qualifyNumber = "+17252521751";
+const overflowNumber = "+18776481525";
 
 const CustomText =
   "All Americans Will Receive $6,100 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
@@ -16,8 +16,8 @@ const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "AW-16519928028";
-const googleConversionTagEventSentTo = "AW-16519928028/qG8gCOiwjKMZENyxqMU9";
+const googleAccountConversionTagID = "AW-16510766701";
+const googleConversionTagEventSentTo = "AW-16510766701/L7dlCIzajaMZEO2c-cA9";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
