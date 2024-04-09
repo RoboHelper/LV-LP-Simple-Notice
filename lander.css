@@ -21296,3 +21296,6 @@ label.roundUpSelectorLabel:after {
   position: absolute;
   pointer-events: none;
 }
+.text-align-center {
+  text-align: center;
+}
