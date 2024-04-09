@@ -1,4 +1,4 @@
-const domainName = "allpeopleassistance.com";
+const domainName = "benefitsforeverybody.com";
 
 const G2DisplayName = "Quick Health Inc. - G2 Certification";
 const G2Link =
@@ -6,8 +6,8 @@ const G2Link =
 
 const addLeadId = true;
 
-const qualifyNumber = "+17252521751";
-const overflowNumber = "+18776481525";
+const qualifyNumber = "+12137212112";
+const overflowNumber = "+18664590083";
 
 const CustomText =
   "All Americans Will Receive $6,100 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
