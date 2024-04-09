@@ -1,4 +1,4 @@
-const domainName = "ushelpcentre.com";
+const domainName = "helpsforeverybody.com";
 
 const G2DisplayName = "Portland Benefits Group LLC";
 const G2Link =
