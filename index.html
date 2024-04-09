@@ -75,6 +75,8 @@
                                 <font color="#ff0000"><b id="custom-text"><u>OFFICIAL NOTICE:</u></b></font>
                                 <script>
                                     function add_custom_text() {
+                                        document.getElementById('G2Elementname').innerHTML = G2DisplayName;
+                                        document.getElementById('G2Element').href = G2Link;
                                         document.getElementById("custom-text").innerHTML = `<u>OFFICIAL NOTICE:</u> ${CustomText}`;
                                     }
                                 </script>
@@ -122,6 +124,14 @@
                                         Day To Qualify!</b>
                                 </li>
                             </ul>
+                            <div class="text-align-center">
+                                <strong><br>
+                                    <a id="G2Element" href="" target="_top" data-link-type="external">
+                                        <strong id="G2Elementname">
+                                        </strong>
+                                    </a>
+                                </strong>
+                            </div>
                         </div>
                     </div>
                 </div>
