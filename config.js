@@ -1,13 +1,13 @@
-const domainName = "helpforallusa.com";
+const domainName = "peopleshelthstation.com";
 
-const G2DisplayName = "Peak Plans LLC. - G2 Certification";
+const G2DisplayName = "Quick Health Inc. - G2 Certification";
 const G2Link =
-  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=2314";
+  "https://g2risksolutions.com/approved-health-insurance-provider/?pdb=108";
 
 const addLeadId = true;
 
-const qualifyNumber = "8555792872";
-const overflowNumber = "8556714382";
+const qualifyNumber = "+18888521027";
+const overflowNumber = "+18882690539";
 
 const CustomText =
   "All Americans Will Receive $6,400 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
