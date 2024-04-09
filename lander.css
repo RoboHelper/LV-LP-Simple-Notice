@@ -21296,3 +21296,26 @@ label.roundUpSelectorLabel:after {
   position: absolute;
   pointer-events: none;
 }
+.text-align-center {
+  text-align: center;
+}
+.body-content {
+  min-width: 55vw;
+  margin: 0 5vw
+}
+.body-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
