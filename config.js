@@ -6,8 +6,8 @@ const G2Link =
 
 const addLeadId = true;
 
-const qualifyNumber = "8776595463";
-const overflowNumber = "8776512362";
+const qualifyNumber = "+18776595463";
+const overflowNumber = "+18776512362";
 
 const CustomText =
   "All Americans Will Receive $6,100 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
