@@ -1,4 +1,4 @@
-const domainName = "benefitsforeverybody.com";
+const domainName = "helpsforeveryone.com";
 
 const G2DisplayName = "Quick Health Inc. - G2 Certification";
 const G2Link =
@@ -6,9 +6,9 @@ const G2Link =
 
 const addLeadId = true;
 
-const qualifyNumber = "+12137212112";
-const overflowNumber = "+12137212112";
-// const overflowNumber = "+18664590083";
+const qualifyNumber = "8665500208";
+// const overflowNumber = "8446731187";
+const overflowNumber = "8665500208";
 
 const CustomText =
   "All Americans Will Receive $6,100 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
@@ -18,16 +18,16 @@ const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 // const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "AW-16498952307";
-const googleConversionTagEventSentTo = "AW-16498952307/yrQ9CJvkxp4ZEPOQqLs9";
+const googleAccountConversionTagID = "AW-16453975244";
+const googleConversionTagEventSentTo = "AW-16453975244/89m7CIzP_qAZEMz57qU9";
 const googleConversionTagValue = 1.0;
 
-const qualifyDebtNumber = "";
+const qualifyDebtNumber = "8668612856";
 const normalRingbaDebtCampaignID = "CA3d44f20051764969b1181db77bfbfd7b";
-const overflowDebtNumber = "";
+const overflowDebtNumber = "8447052334";
 const overflowRingbaDebtCampaignID = "CA6ba3ea908b3149afb82e3a3904113a08";
 
-const qualifySpDebtNumber = "";
+const qualifySpDebtNumber = "8667140935";
 const normalRingbaSpDebtCampaignID = "CA4d1d63d6f1054fb5be8f69dc661fc681";
-const overflowSpDebtNumber = "";
+const overflowSpDebtNumber = "8556841291";
 const overflowRingbaSpDebtCampaignID = "CAfcac3e7c53f94634b91cf2e55a6166f4";
