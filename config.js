@@ -1,4 +1,4 @@
-const domainName = "helpforallusa.com";
+const domainName = "helphealthstation.com";
 
 const G2DisplayName = "Peak Plans LLC. - G2 Certification";
 const G2Link =
@@ -6,8 +6,8 @@ const G2Link =
 
 const addLeadId = true;
 
-const qualifyNumber = "8555792872";
-const overflowNumber = "8556714382";
+const qualifyNumber = "+18669900271";
+const overflowNumber = "+18559441205";
 
 const CustomText =
   "All Americans Will Receive $6,400 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
