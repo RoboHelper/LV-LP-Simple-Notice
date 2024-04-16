@@ -11,7 +11,7 @@ const qualifyNumber = "+18557130692";
 const overflowNumber = "+18557331029";
 
 const CustomText = "All Americans Will Receive $6,400 in Incentives!";
-const CustomTextCall = "You're Pre-Qualified for Incentive!";
+const CustomTextCall = "You're Qualify for the $6,400 Incentive!";
 
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 // const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
