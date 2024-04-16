@@ -1,23 +1,24 @@
-const domainName = "helpforallusa.com";
+const domainName = "helpforallcitizens.com";
 
-const G2DisplayName = "Peak Plans LLC. - G2 Certification";
-const G2Link =
-  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=2314";
+const G2DisplayName = ""; //"Pivotal Concepts Inc. - G2 Certification";
+const G2Link = "";
+//"https://www.g2llc.com/approved-health-insurance-provider/?pdb=2411";
 
 const addLeadId = true;
 
-const qualifyNumber = "8555792872";
-const overflowNumber = "8556714382";
+const qualifyNumber = "+18557130692";
+// const overflowNumber = "+18557130692";
+const overflowNumber = "+18557331029";
 
-const CustomText =
-  "All Americans Will Receive $6,400 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
-const CustomTextCall = "You're Pre-Qualified for Subsidy!";
+const CustomText = "All Americans Will Receive $6,400 in Incentives";
+const CustomTextCall = "You're Pre-Qualified for Incentive!";
 
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
+// const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "";
-const googleConversionTagEventSentTo = "";
+const googleAccountConversionTagID = "AW-11483465918";
+const googleConversionTagEventSentTo = "AW-11483465918/TrfbCOixp6cZEL6R3-Mq";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
