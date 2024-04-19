@@ -1,8 +1,8 @@
 const domainName = "helpinghealthstation.com";
 
-const G2DisplayName = "Peak Plans LLC. - G2 Certification";
+const G2DisplayName = "Quick Health Inc. - G2 Certification";
 const G2Link =
-  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=2314";
+  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=108";
 
 const addLeadId = true;
 
