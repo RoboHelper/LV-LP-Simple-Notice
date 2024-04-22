@@ -1,9 +1,8 @@
 const domainName = "usacaguru.com";
 
-const G2DisplayName = "";
-// ("Senior Care Direct");
-const G2Link = "";
-// "https://g2risksolutions.com/approved-health-insurance-provider/?pdb=2008";
+const G2DisplayName = "Senior Care Direct";
+const G2Link =
+  "https://g2risksolutions.com/approved-health-insurance-provider/?pdb=2008";
 
 const addLeadId = true;
 
