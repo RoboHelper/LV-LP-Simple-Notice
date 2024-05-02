@@ -118,7 +118,7 @@
             </div>
         </footer>
         <script> function user_qualifies() {
-                document.getElementById("callNum").href = `tel: ${qualifyDebtNumber}`;
+                document.getElementById("callNum").href = `tel: ${qualifySpDebtNumber}`;
                 var script = document.createElement("script");
                 script.src = `https://www.googletagmanager.com/gtag/js?id=${googleAccountConversionTagID}`;
                 script.type = "text/javascript";
@@ -132,7 +132,7 @@
                 document.body.appendChild(script);
 
                 script = document.createElement("script");
-                script.src = `https://b-js.ringba.com/${normalRingbaDebtCampaignID}`;
+                script.src = `https://b-js.ringba.com/${normalRingbaSpDebtCampaignID}`;
                 script.async = true;
                 document.body.appendChild(script);
             }
