@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>helphealthcentre.com</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+        * {
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #061d60;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+
+        .body-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: 10vh;
+        }
+
+        .body-content {
+            min-width: 65vw;
+            margin: 0 5vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: rgba(23, 94, 187, 1);
+            border-color: rgba(23, 94, 187, 1);
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 4vh;
+            margin-top: 30vh;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid;
+            line-height: 1.5;
+            cursor: pointer;
+            color: white;
+            transition: background-color 0.3s, color 0.3s;
+            text-decoration: none;
+            height: 35px;
+            font-weight: bold;
+            width: 40%;
+            text-align: center;
+
+            justify-content: center;
+            align-items: center;
+            display: inline-flex;
+        }
+
+        .link {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 1000px) {
+            .body-main {
+                margin-top: 5vh;
+            }
+
+            .button {
+                width: 100% !important;
+            }
+
+            .button {
+                padding: 10px 0;
+            }
+        }
+
+        form {
+            text-align: left;
+            margin-top: 10vh;
+            width: 100%;
+        }
+
+        form input:not([type="checkbox"]) {
+            padding: 0;
+            width: 100%;
+            height: 25px;
+        }
+
+        .Contact {
+            border-color: rgb(72, 170, 48);
+            background: rgb(72, 170, 48);
+            color: white;
+            height: auto;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .Contact:hover {
+            background-color: rgb(28, 97, 11);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 4vh">Good Relief Center</h1>
+        <p>Updated: 21st August, 2023</p>
+    </header>
+
+    <div class="body-main">
+        <div class="body-content">
+            <h1>Contáctenos</h1> <br>
+            <h3>Horario de atención: lunes a viernes, de 9:00 a. m. a 6:00 p. m. hora del este (EST).</h3>
+            <form>
+                <label for="first-name">Nombre</label> <br>
+                <input type="text" id="first-name" name="first-name" required placeholder="Nombre"><br><br>
+
+                <label for="email">Correo electrónico</label> <br>
+                <input type="email" id="email" name="email" required
+                    placeholder="Dirección de correo electrónico"><br><br>
+
+                <p style="color: gray; font-size: smaller;">Este formulario recopila información que utilizaremos para
+                    enviarle actualizaciones sobre promociones, ofertas especiales y noticias. No compartiremos ni
+                    venderemos su información personal. Puede darse de baja en cualquier momento.</p>
+                <a href="/privacy/" style="color: gray; font-size: smaller;">Política de privacidad</a>
+
+                <br />
+                <br />
+                <input type="checkbox" name="Yes, I consent to receiving emails" id="">
+                Sí, acepto recibir correos electrónicos.
+                </input>
+                <br />
+                <br />
+
+                <button class="button Contact">
+                    <h2 style="color: white;">Contáctenos</h2>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <a href="/Privicy/" class="link">Política de privacidad</a>|
+        <a href="/TOS/" class="link">Términos de servicio</a>|
+        <a href="/Contact/" class="link">Contáctanos</a>
+        <br><br>
+        <p>© 2024 Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
