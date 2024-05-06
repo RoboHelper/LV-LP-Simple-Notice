@@ -6,8 +6,8 @@ const G2Link =
 
 const addLeadId = true;
 
-const qualifyNumber = "8312454134";
-const overflowNumber = "7257052312";
+const qualifyNumber = "+18312454134";
+const overflowNumber = "+17257052312";
 
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
