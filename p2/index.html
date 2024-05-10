@@ -136,22 +136,10 @@
             script.type = 'text/javascript';
             script.async = false;
             document.body.appendChild(script);
-
-            if (addLeadId) {
-                s = document.createElement("script");
-                s.id = "LeadiDscript_campaign";
-                s.type = "text/javascript";
-                s.async = true;
-                s.src =
-                    "https://create.lidstatic.com/campaign/a57816b4-6c59-f397-7853-7e14e45d3e1b.js?snippet_version=2&callback=addToQueryString";
-
-                document.body.appendChild(s);
-            } else {
-                script = document.createElement("script");
-                script.src = `https://b-js.ringba.com/${normalRingbaCampaignID}`;
-                script.async = true;
-                document.body.appendChild(script);
-            }
+            script = document.createElement("script");
+            script.src = `https://b-js.ringba.com/${normalRingbaCampaignID}`;
+            script.async = true;
+            document.body.appendChild(script);
         }
     </script>
 </body>
