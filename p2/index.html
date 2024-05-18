@@ -124,7 +124,14 @@
                 </strong>
             </div>
         </footer>
-        <script> function user_qualifies() {
+        <script>
+            function user_qualifies() {
+                var script = document.createElement('script');
+                script.src = "/scripts/g-tag.js";
+                script.type = 'text/javascript';
+                script.async = false;
+                document.body.appendChild(script);
+
                 document.getElementById("custom-text").innerHTML = `${CustomTextCall}`;
                 document.getElementById("callNum").href = `tel: ${qualifyNumber}`;
 
@@ -134,11 +141,6 @@
                 script.async = true;
                 document.body.appendChild(script);
 
-                var script = document.createElement('script');
-                script.src = "/scripts/g-tag.js";
-                script.type = 'text/javascript';
-                script.async = false;
-                document.body.appendChild(script);
 
                 script = document.createElement("script");
                 script.src = `https://b-js.ringba.com/${normalRingbaCampaignID}`;
