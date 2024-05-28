@@ -75,6 +75,13 @@
                                     Now
                                 </span><span class="elButtonSub"></span></a>
                         </div>
+                        <br>
+                        <p style="text-align: left; font-size: 10pt;">
+                            By placing this call you are agreeing that the phone number you're calling from may be
+                            contacted by Lower Bills USA regarding your inquiry and with related offers, by phone call
+                            or text message. Msg. and data rates apply. You are not required to opt in as a condition of
+                            purchase.
+                        </p>
                         <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_paragraph-73814-118-168"
                             data-de-type="headline" data-de-editing="false" data-title="Paragraph" data-ce="true"
                             data-trigger="none" data-animate="fade" data-delay="500"
@@ -134,6 +141,43 @@
             script.async = true;
             document.body.appendChild(script);
         }
+    </script>
+    <script type="text/javascript">
+        /**
+            This function will be called by Jornaya after a leadid is loaded
+            and pass the leadid into ringba
+        */
+        function addLeadIdToRingba(leadid) {
+            // Initialize the RGBA object if it doesn't already exist
+            window._rgba_tags = window._rgba_tags || [];
+            // Insert the leadid
+            window._rgba_tags.push({ leadid: leadid });
+        }
+
+        /**
+            This function will and add a new
+            cleanurl tag to ringba, removing all querystring data
+        */
+        (function () {
+            const cleanurl = window.location.origin + window.location.pathname;
+            // Initialize the RGBA object if it doesn't already exist
+            window._rgba_tags = window._rgba_tags || [];
+            // Insert the clean_url
+            window._rgba_tags.push({ cleanurl: cleanurl });
+        })();   
+    </script>
+
+
+    <script id="LeadiDscript" type="text/javascript">
+        (function () {
+            var s = document.createElement("script");
+            s.id = "LeadiDscript_campaign";
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://create.lidstatic.com/campaign/a57816b4-6c59-f397-7853-7e14e45d3e1b.js?snippet_version=2&callback=addLeadIdToRingba";
+            var LeadiDscript = document.getElementById("LeadiDscript");
+            LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+        })();
     </script>
 </body>
 
