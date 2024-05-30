@@ -1,8 +1,7 @@
 const domainName = "helpedeveryone.com";
 
 const G2DisplayName = "";
-const G2Link =
-  "https://www.g2llc.com/approved-health-insurance-provider/?pdb=108";
+const G2Link = "";
 
 const addLeadId = true;
 
@@ -10,7 +9,7 @@ const qualifyNumber = "+18776595463";
 const overflowNumber = "+18776512362";
 
 const CustomText =
-  "All Americans Will Receive $6,100 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
+  "All Americans Will Receive $6,100 in Subsidies to spend on Rent, Gas, Groceries, or literally anything else.";
 const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
