@@ -1,6 +1,6 @@
 const domainName = "helphealthstation.com";
 
-const G2DisplayName = "Peak Plans LLC. - G2 Certification";
+const G2DisplayName = "";
 const G2Link =
   "https://www.g2llc.com/approved-health-insurance-provider/?pdb=2314";
 
