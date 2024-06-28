@@ -1,4 +1,4 @@
-const domainName = "advisereliefguru.com";
+const domainName = "helpinghealthforeveryone.com";
 
 const G2DisplayName = "";
 const G2Link =
