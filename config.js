@@ -1,4 +1,4 @@
-const domainName = "advisereliefguru.com";
+const domainName = "helpinghealthforall.com";
 
 const G2DisplayName = "";
 const G2Link =
@@ -7,17 +7,19 @@ const G2Link =
 const addLeadId = true;
 
 const qualifyNumber = "+18449430415";
-const overflowNumber = "+18449620536";
+const overflowNumber = "+18449430415";
+// const overflowNumber = "+18449620536";
 
 const CustomText =
-  "All Americans Will Receive $7,400 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
+  "All Americans Will Receive $7,250 in Subsidies to spend on Rent, Gas, Groceries, or anything else.";
 const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 
-const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
+// const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
+const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "";
-const googleConversionTagEventSentTo = "";
+const googleAccountConversionTagID = "AW-16512032273";
+const googleConversionTagEventSentTo = "AW-16512032273/7pNKCLaCq74ZEJG8xsE9";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
