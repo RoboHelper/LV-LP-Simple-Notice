@@ -16,8 +16,8 @@ const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "AW-16512645435";
-const googleConversionTagEventSentTo = "AW-16512645435/KAF7CLzwqL4ZELvy68E9";
+const googleAccountConversionTagID = "AW-16636234698";
+const googleConversionTagEventSentTo = "AW-16636234698/3X5eCJ2Ii8EZEMqX4_w9";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
