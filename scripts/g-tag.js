@@ -11,5 +11,3 @@ gtag("event", "conversion", {
   value: googleConversionTagValue,
   currency: "USD",
 });
-
-alert("HEHE");
