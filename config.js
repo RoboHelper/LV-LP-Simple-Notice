@@ -1,4 +1,4 @@
-const domainName = "helphealthstation.com";
+const domainName = "centerreliefaid.com";
 
 const G2DisplayName = "";
 const G2Link =
@@ -18,8 +18,8 @@ const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "AW-16521045005";
-const googleConversionTagEventSentTo = "AW-16521045005/b5-6CISInqoZEI3I7MU9";
+const googleAccountConversionTagID = "AW-11354063661";
+const googleConversionTagEventSentTo = "AW-11354063661/ANN_CN3b3MEZEK2GhaYq";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
