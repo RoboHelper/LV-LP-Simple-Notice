@@ -7,13 +7,15 @@ const G2Link =
 const addLeadId = true;
 
 const qualifyNumber = "+18312578633";
-const overflowNumber = "+13218780328";
+const overflowNumber = "+18312578633";
+// const overflowNumber = "+13218780328";
 
 const CustomText =
   "All Americans Will Receive $7,250 in Subsidies to spend on Rent, Gas, and Groceries.";
 const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 
-const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
+// const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
+const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
 const googleAccountConversionTagID = "AW-11356554127";
