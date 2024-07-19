@@ -18,8 +18,8 @@ const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 // const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
-const googleAccountConversionTagID = "AW-11354063661";
-const googleConversionTagEventSentTo = "AW-11354063661/ANN_CN3b3MEZEK2GhaYq";
+const googleAccountConversionTagID = "AW-16521045005";
+const googleConversionTagEventSentTo = "AW-16521045005/b5-6CISInqoZEI3I7MU9";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
