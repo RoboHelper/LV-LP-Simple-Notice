@@ -31,3 +31,8 @@ const qualifySpDebtNumber = "";
 const normalRingbaSpDebtCampaignID = "CA4d1d63d6f1054fb5be8f69dc661fc681";
 const overflowSpDebtNumber = "";
 const overflowRingbaSpDebtCampaignID = "CAfcac3e7c53f94634b91cf2e55a6166f4";
+
+const qualifyFENumber = "+16146359133";
+const normalRingbaFECampaignID = "CA248ff60b2fc94155b2b1069896c132cd";
+const overflowFENumber = "+16146359133";
+const overflowRingbaFECampaignID = "CA248ff60b2fc94155b2b1069896c132cd";
