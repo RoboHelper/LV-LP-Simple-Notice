@@ -1,4 +1,4 @@
-const domainName = "futuretechscience.com";
+const domainName = "helpinggoodhumans.com";
 
 const G2DisplayName = "Peak Plans LLC. - G2 Certification";
 const G2Link =
@@ -14,8 +14,8 @@ const G2Link =
 
 const addLeadId = true;
 
-const qualifyNumber = "+18556260947";
-const overflowNumber = "+18556260947";
+const qualifyNumber = "+16074144180";
+const overflowNumber = "+16074144180";
 const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA4d1d63d6f1054fb5be8f69dc661fc681";
 
