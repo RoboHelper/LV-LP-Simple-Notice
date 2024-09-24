@@ -1,1 +1,0 @@
-# LV-LP-Simple-Notice
