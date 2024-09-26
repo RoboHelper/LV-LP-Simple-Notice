@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>  
@@ -15,13 +14,9 @@
   <meta property="og:title" content="Quedan 24 horas para reclamar tu paquete de reducción de deuda." />
   <meta property="og:description" content="Quedan 24 horas para reclamar tu paquete de reducción de deuda." />
   <link rel="stylesheet" href="./css/style.css">
-
-  <script src="./js/jquery.js"></script>
-  <script src="./config.js"></script>
-
-  <script src=//b-js.ringba.com/CA4d1d63d6f1054fb5be8f69dc661fc681 async></script> 
-
-
+  
+<script src="./js/jquery.js"></script>
+<script src="./config.js?v=1.6"></script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11483400288"></script>
@@ -32,14 +27,13 @@
   gtag('config', 'AW-11483400288');
 </script>
 
-
-    <script>
-    $(document).ready(function() {
-        $('#triggerButton').on('click', function() {
-            $.get('');
-        });
+<script>
+$(document).ready(function() {
+    $('#triggerButton').on('click', function() {
+        $.get('');
     });
-    </script>
+});
+</script>
 </head>
 
 <body onload="init_txt()">
@@ -60,15 +54,15 @@
         </picture>
       </a>
       <p>
-       Toma menos de 5 minutos obtener la <span class="font-bold">aprobación.</span>
+        Toma menos de 5 minutos para obtener la <span class="font-bold">aprobación.</span>
       </p>
-      <h2>Los estadounidenses en dificultades finalmente obtienen alivio con...</h2>
+      <h2>Los estadounidenses en dificultades económicas finalmente obtienen alivio con...</h2>
       <p>
         El Nuevo Plan de Reducción de Deuda está llegando a las personas que tienen dificultades para pagar sus cuentas. Si te has visto afectado por la devastadora inflación, este es el respiro que has estado esperando <span class="font-bold">para eliminar hasta $80,000 de tus deudas.</span>
       </p>
       <h2>¿Por qué se anunció este programa?</h2>
       <p>
-      Desde la pandemia, los precios de todo alcanzaron nuevos máximos, y los estadounidenses han sentido el <span class="font-bold">dolor de la inflación en alimentos y facturas.</span> Por lo tanto, este nuevo programa está brindando esperanza a todas las familias que luchan y para <span class="font-bold">disminuir el dolor de la inflación</span> para todos los estadounidenses.
+      Desde la pandemia, los precios de todo alcanzaron nuevos máximos, y los estadounidenses han sentido el <span class="font-bold">daño causado por la inflación en alimentos y facturas.</span>  Por lo tanto, este nuevo programa está brindando esperanza a todas las familias que luchan y necesitan <span class="font-bold">disminuir el impacto causado por esta terrible inflación.</span>
       </p>
       <div class="question" id="q00">
   <h2 class="text-center">¿Vives en los Estados Unidos?</h2>
@@ -181,7 +175,7 @@
     </div>
   </section>
 <script>
- let makesUnder50 = false;
+let hasMoreThan15kDebt = false;
 
 $(document).ready(function () {
   $('.q00-btn').on('click', function () {
@@ -190,26 +184,12 @@ $(document).ready(function () {
   });
 
   $('.q0-btn').on('click', function () {
-    if ($(this).text() === 'Si') {
-      makesUnder50 = true;
-    }
-
+    hasMoreThan15kDebt = $(this).text().trim().toLowerCase() === 'si';
     $('#q0').fadeOut(500);
     $('#q1').delay(500).fadeIn(500);
   });
 
   $('.q1-btn').on('click', function () {
-    if ($(this).text() === 'No') {
-      if (makesUnder50) {
-        $('#q1').fadeOut(500);
-        waitingInfo();
-      } else if (!makesUnder50) {
-        $('#q1').fadeOut(500);
-        waitingInfo();
-      } else {
-        return;
-      }
-    }
     $('#q1').fadeOut(500);
     waitingInfo();
   });
@@ -242,7 +222,8 @@ function waitingInfo() {
             loading3.classList.add('fade-out');
             window.setTimeout(function () {
               loading3.style.display = 'none';
-              if (makesUnder50) {
+              loadRingbaScript(); // Load Ringba script here
+              if (hasMoreThan15kDebt) {
                 qualify.style.display = 'block';
                 qualify.classList.add('fade-in');
                 $('html, body')
@@ -263,6 +244,14 @@ function waitingInfo() {
   }, 1300);
 }
 
+function loadRingbaScript() {
+  const scriptId = hasMoreThan15kDebt ? 'CA4d1d63d6f1054fb5be8f69dc661fc681' : 'CA4d1d63d6f1054fb5be8f69dc661fc681';
+  const script = document.createElement('script');
+  script.src = `//b-js.ringba.com/${scriptId}`;
+  script.async = true;
+  document.head.appendChild(script);
+}
+
 var timer2 = '5:01';
 var interval = setInterval(function () {
   var timer = timer2.split(':');
@@ -277,41 +266,10 @@ var interval = setInterval(function () {
   timer2 = minutes + ':' + seconds;
 }, 1000);
 
-
-  </script>
-  
-<script type="text/javascript">
-    
-//   var url = new URL(window.location.html), superProperties = { baseUrl: url.origin + url.pathname };
-
-
-
-// var url = new URL(window.location.href), superProperties = { baseUrl: url.origin + url.pathname };
-
-
-//   url.searchParams.forEach((v, k) => superProperties['utm_' + k] = v);
-//   mixpanel.track_pageview();
-//   mixpanel.register_once(superProperties);
-
-
-//   $(".button").on("click", function() {
-//     mixpanel.track("Button Click", {
-//       text: $(this).text().trim(),
-//       questionId: $(this).closest('.question').attr('id'),
-//       name: $(this).attr('name'),
-//       value: $(this).attr('value'),
-//       phoneNumber: $(this).attr('name') === "callButton" ? $(this).attr('href').replace('tel:', '') : undefined,
-//       selectedState: this.id === "state-selector-next-btn" ? $("#stateSelector").val() : undefined
-//     });
-//   });
-
-
 function formatPhoneNumber(number) {
-  // Zadrži "+1" i formatiraj ostatak broja
   return `${number.slice(0, 2)} ${number.slice(2, 5)} ${number.slice(5, 8)}-${number.slice(8)}`;
 }
 
-// Funkcija za inicijalizaciju brojeva telefona
 function initPhoneNumbers() {
   const qualifyBtn = document.getElementById('qualifyBtn');
   const qualifyNumberText = document.getElementById('qualifyNumberText');
@@ -319,7 +277,6 @@ function initPhoneNumbers() {
   if (qualifyBtn) qualifyBtn.setAttribute('href', `tel:${qualifyNumber}`);
   if (qualifyNumberText) qualifyNumberText.textContent = formatPhoneNumber(qualifyNumber);
 
-  // Nekvalifikovani korisnici
   const overflowBtn = document.getElementById('overflowBtn');
   const overflowNumberText = document.getElementById('overflowNumberText');
   
@@ -327,87 +284,84 @@ function initPhoneNumbers() {
   if (overflowNumberText) overflowNumberText.textContent = formatPhoneNumber(overflowNumber);
 }
 
-// Pozovi funkciju kada se stranica učita
 window.onload = initPhoneNumbers;
 
-</script>
+(function(){
+  let oCustomers = ['Mateo Garcia', 'Lucia Torres', 'Santiago Rodriguez', 'Elena Ramirez', 'Diego Perez', 'Camila Lopez', 'Alejandro Sanchez', 'Daniel Ramirez', 'Isabella Rivera', 'Jose Flores',  'Gabriela Hernandez', 'Carlos Ortiz', 'Mariana Alvarez', 'Miguel Jimenez', 'Carmen Ruiz', 'Ana Diaz'];
+  let oApproved = [];
+  let iCount = 0;
+  let oAvatar = $("#social-proof-avatar");
+  let oCustomer = $("#social-proof-customer");
+  let oInformation = $("#social-proof-customer-info");
+  let oContainer = $("#custom-social-proof");
 
+  for(let customer of oCustomers){
+    oApproved.push(rand(15000, 46400));
+  }
 
-<script>
-  (function(){
-    let oCustomers = ['Mateo Garcia', 'Lucia Torres', 'Santiago Rodriguez', 'Elena Ramirez', 'Diego Perez', 'Camila Lopez', 'Alejandro Sanchez', 'Daniel Ramirez', 'Isabella Rivera', 'Jose Flores',  'Gabriela Hernandez', 'Carlos Ortiz', 'Mariana Alvarez', 'Miguel Jimenez', 'Carmen Ruiz', 'Ana Diaz'];
-    let oApproved = [];
-    let iCount = 0;
-    let oAvatar = $("#social-proof-avatar");
-    let oCustomer = $("#social-proof-customer");
-    let oInformation = $("#social-proof-customer-info");
-    let oContainer = $("#custom-social-proof");
-
-    for(let customer of oCustomers){
-      oApproved.push(rand(15000, 46400));
+  function rand(min, max){
+    const argc = arguments.length
+    if (argc === 0) {
+      min = 0
+      max = 2147483647
+    } else if (argc === 1) {
+      throw new Error('Warning: rand() expects exactly 2 parameters, 1 given')
     }
+    return Math.floor(Math.random() * (max - min + 1)) + min
+  }
 
-    function rand(min, max){
-      const argc = arguments.length
-      if (argc === 0) {
-        min = 0
-        max = 2147483647
-      } else if (argc === 1) {
-        throw new Error('Warning: rand() expects exactly 2 parameters, 1 given')
-      }
-      return Math.floor(Math.random() * (max - min + 1)) + min
-    }
+  function updateSocial(){
+    let iIndex = Math.floor(Math.random() * oCustomers.length);
+    var sCustomer = oCustomers[iIndex];
+    let sApproved = oApproved[iIndex];
+    var sAvatar = sCustomer.split(" ")[0];
 
-    function updateSocial(){
-      let iIndex = Math.floor(Math.random() * oCustomers.length);
-      var sCustomer = oCustomers[iIndex];
-      let sApproved = oApproved[iIndex];
-      var sAvatar = sCustomer.split(" ")[0];
+    oAvatar.attr("src","img/" + sAvatar.toLowerCase() + ".jpg");
+    oCustomer.html(sCustomer);
+    oInformation.html("Acabo de eliminar $" + sApproved + " de deuda");
+  }
 
-      oAvatar.attr("src","img/" + sAvatar.toLowerCase() + ".jpg");
-      oCustomer.html(sCustomer);
-      oInformation.html("Acabo de eliminar $" + sApproved + " de deuda");
-    }
-
-    setInterval(function() {
-      if (oContainer.is(':hidden')) {
-          oContainer.stop().slideToggle('slow');
-          updateSocial();
-      } else {
+  setInterval(function() {
+    if (oContainer.is(':hidden')) {
         oContainer.stop().slideToggle('slow');
-      }
-    }, 6500);
-  })();
+        updateSocial();
+    } else {
+      oContainer.stop().slideToggle('slow');
+    }
+  }, 6500);
+})();
 </script>
 <script>
-  // Funkcija za praćenje konverzije
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-        'send_to': 'AW-11483400288/b2XxCLWG39UZEOCQ2-Mq',
-        'value': 1.0,
-        'currency': 'USD',
-        'event_callback': callback
-    });
-    return false;
-  }
-
-  // Kreiraj IntersectionObserver
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        // Element je vidljiv, pokreni konverziju
-        gtag_report_conversion();
-      }
-    });
+// Funkcija za praćenje konverzije
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11483400288/b2XxCLWG39UZEOCQ2-Mq',
+      'value': 1.0,
+      'currency': 'USD',
+      'event_callback': callback
   });
-  // Odredi koji element pratiš
-  const qualifyBtn = document.getElementById('qualifyBtn');
-  if (qualifyBtn) {
-    observer.observe(qualifyBtn);
-  }
+  return false;
+}
+
+// Kreiraj IntersectionObserver
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Element je vidljiv, pokreni konverziju
+      gtag_report_conversion();
+    }
+  });
+});
+// Odredi koji element pratiš
+const qualifyBtn = document.getElementById('qualifyBtn');
+if (qualifyBtn) {
+  observer.observe(qualifyBtn);
+}
 </script>
+</body>
+</html>
