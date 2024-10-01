@@ -6,8 +6,8 @@ const G2Link =
 
 const addLeadId = true;
 
-const qualifyNumber = "+18312578633";
-const overflowNumber = "+18312578633";
+const qualifyNumber = "+16199277552";
+const overflowNumber = "+13232208369";
 // const overflowNumber = "+13218780328";
 
 const CustomText =
