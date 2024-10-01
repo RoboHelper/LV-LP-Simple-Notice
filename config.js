@@ -15,7 +15,7 @@ const CustomText =
 const CustomTextCall = "You're Pre-Qualified for Subsidy!";
 
 // const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
-const overflowRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
+const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
 const googleAccountConversionTagID = "AW-16520486546";
