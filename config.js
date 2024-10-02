@@ -19,7 +19,7 @@ const overflowRingbaCampaignID = "CA7f1be56c7e6f4e229cb806b4c76add9a";
 const normalRingbaCampaignID = "CA0457ccda8864417991b332abbcc7951c";
 
 const googleAccountConversionTagID = "AW-11337646891";
-const googleConversionTagEventSentTo = "AW-11337646891/C8bkCIGu948ZEKuGm54q";
+const googleConversionTagEventSentTo = "AW-11337646891/NLvcCJu8kNkZEKuGm54q";
 const googleConversionTagValue = 1.0;
 
 const qualifyDebtNumber = "";
